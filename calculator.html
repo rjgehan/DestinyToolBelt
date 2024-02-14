@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DPS Calculator</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+  <!-- Bootstrap Icons CDN -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('./resources/Homebackground.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 50px;
+      /* Initial minimal width */
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.3s;
+      padding-top: 60px;
+    }
+
+    .sidenav a {
+      padding: 8px 8px 8px 10px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: flex;
+      /* Changed to flex to align icons and text */
+      align-items: center;
+      transition: 0.1s;
+    }
+
+    .sidenav a .nav-text {
+      display: none;
+      /* Initially hidden */
+      margin-left: 10px;
+      /* Space between icon and text */
+    }
+
+    .sidenav.opened a .nav-text {
+      display: inline;
+      /* Show text when sidebar is opened */
+    }
+
+    .menu-icon {
+      font-size: 30px;
+      cursor: pointer;
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      color: rgb(117, 117, 117);
+      z-index: 2;
+      /* Ensures it's above the sidenav */
+    }
+
+    .main {
+      display: flex;
+      /* Adjusted for overall layout */
+      flex-direction: column;
+      /* Stack content vertically */
+      align-items: center;
+      /* Center items horizontally */
+      padding: 50px;
+      color: white;
+      min-height: 100vh;
+      /* Full viewport height */
+    }
+
+    .box-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      /* Create three columns */
+      gap: 20px;
+      /* Space between boxes */
+      margin-bottom: 20px;
+      /* Space above additional content */
+      width: 100%;
+      /* Full width of its container */
+    }
+
+    .box {
+      background-color: #444;
+      /* Box background color */
+      color: white;
+      /* Text color */
+      padding: 20px;
+      /* Padding inside boxes */
+      display: flex;
+      /* Flexbox for content alignment */
+      justify-content: center;
+      /* Center content horizontally */
+      align-items: center;
+      /* Center content vertically */
+      height: 300px;
+      /* Fixed height for all boxes */
+    }
+
+    .add-box {
+      background-color: #555;
+      color: white;
+      padding: 10px 20px;
+      font-size: 20px;
+      cursor: pointer;
+      margin: 20px 0;
+      width: 100px;
+      /* Adjust width as needed */
+      text-align: center;
+    }
+
+    .additional-content {
+      margin-top: 20px;
+      /* Space from the boxes */
+      width: 100%;
+      /* Match width to the box container for alignment */
+      text-align: center;
+      /* Center the text */
+    }
+
+    .box button {
+      margin-left: 10px;
+      background-color: red;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+
+    @media screen and (max-width: 768px) {
+      .box-container {
+        grid-template-columns: 1fr;
+        /* Switch to a single column layout */
+      }
+
+      .main {
+        padding: 50px;
+        /* Adjust padding for smaller screens */
+      }
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+
+      .sidenav a {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <span class="menu-icon" onclick="toggleNav()">&#9776;</span>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="./home.html" class="icon"><i class="bi bi-house"></i><span class="nav-text">Home</span></a>
+    <a href="./calculator.html" class="icon"><i class="bi bi-calculator"></i><span
+        class="nav-text">Calculator</span></a>
+    <a href="./loadouts.html" class="icon"><i class="bi bi-shield-shaded"></i></i><span
+        class="nav-text">Loadouts</span></a>
+  </div>
+
+  <div class="main" id="main">
+    <div class="box-container" id="boxContainer">
+      <div class="box">Box 1 Content</div>
+    </div>
+    <button class="add-box" id="addBoxButton">+</button>
+    <div class="additional-content">
+      Additional content here...
+    </div>
+  </div>
+
+
+  <script>
+    function toggleNav() {
+      var sidenav = document.getElementById("mySidenav");
+      var main = document.getElementById("main");
+      var isOpen = sidenav.style.width === "200px";
+
+      if (isOpen) {
+        sidenav.style.width = "50px";
+        main.style.marginLeft = "50px";
+        sidenav.classList.remove("opened");
+      } else {
+        sidenav.style.width = "200px";
+        main.style.marginLeft = "200px";
+        sidenav.classList.add("opened");
+      }
+    }
+
+    document.getElementById('addBoxButton').addEventListener('click', function () {
+      const container = document.getElementById('boxContainer');
+      addBox(container);
+      if (container.querySelectorAll('.box').length === 6) {
+        this.style.display = 'none'; // Hide the add button when 6 boxes are displayed
+      }
+    });
+
+    // Function to add a box
+    function addBox(container) {
+      const allBoxes = container.querySelectorAll('.box').length;
+      if (allBoxes < 6) {
+        const newBox = document.createElement('div');
+        newBox.className = 'box';
+        newBox.innerHTML = `Box ${allBoxes + 1} Content <button onclick="removeBox(this)">-</button>`;
+        container.appendChild(newBox);
+      }
+    }
+
+    // Function to remove a box
+    function removeBox(button) {
+      const container = document.getElementById('boxContainer');
+      container.removeChild(button.parentElement);
+      document.getElementById('addBoxButton').style.display = 'inline-block'; // Show the add button if less than 6 boxes
+    }
+
+    // Initial box setup with remove button
+    document.addEventListener('DOMContentLoaded', function () {
+      const container = document.getElementById('boxContainer');
+      container.innerHTML = `<div class="box">Box 1 Content <button onclick="removeBox(this)">-</button></div>`;
+    });
+  </script>
+
+</body>
+
+</html>

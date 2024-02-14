@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loadouts</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"> <!-- Bootstrap Icons CDN -->
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('./resources/Homebackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+  }
+  .sidenav {
+    height: 100%;
+    width: 50px; /* Initial minimal width */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: flex; /* Changed to flex to align icons and text */
+    align-items: center;
+    transition: 0.1s;
+  }
+  .sidenav a .nav-text {
+    display: none; /* Initially hidden */
+    margin-left: 10px; /* Space between icon and text */
+  }
+  .sidenav.opened a .nav-text {
+    display: inline; /* Show text when sidebar is opened */
+  }
+  .menu-icon {
+    font-size:30px;
+    cursor:pointer;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    color: rgb(117, 117, 117);
+    z-index: 2; /* Ensures it's above the sidenav */
+  }
+  .main {
+  transition: margin-left .5s;
+  padding: 16px;
+  color: white;
+  display: flex; /* Use Flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Ensure it takes at least the full viewport height */
+}
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+</style>
+</head>
+<body>
+
+<span class="menu-icon" onclick="toggleNav()">&#9776;</span>
+
+<div id="mySidenav" class="sidenav">
+  <a href="./home.html" class="icon"><i class="bi bi-house"></i><span class="nav-text">Home</span></a>
+  <a href="./calculator.html" class="icon"><i class="bi bi-calculator"></i><span class="nav-text">Calculator</span></a>
+  <a href="./loadouts.html" class="icon"><i class="bi bi-shield-shaded"></i></i><span class="nav-text">Loadouts</span></a>
+</div>
+
+<div class="main" id="main">
+  THIS IS COMING SOON
+  LOADOUTS
+</div>
+
+<script>
+function toggleNav() {
+  var sidenav = document.getElementById("mySidenav");
+  var main = document.getElementById("main");
+  var isOpen = sidenav.style.width === "200px";
+
+  if (isOpen) {
+    sidenav.style.width = "50px";
+    main.style.marginLeft = "50px";
+    sidenav.classList.remove("opened");
+  } else {
+    sidenav.style.width = "200px";
+    main.style.marginLeft = "200px";
+    sidenav.classList.add("opened");
+  }
+}
+</script>
+
+</body>
+</html>
