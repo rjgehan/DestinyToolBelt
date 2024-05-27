@@ -1,123 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link rel="stylesheet"
+   <meta charset="UTF-8">
+   <title>Destiny Tool Belt</title>
+   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
-  <!-- Bootstrap Icons CDN -->
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-image: url('./resources/Homebackground.jpg');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      background-attachment: fixed;
-    }
-
-    .sidenav {
-      height: 100%;
-      width: 50px;
-      /* Initial minimal width */
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: #111;
-      overflow-x: hidden;
-      transition: 0.3s;
-      padding-top: 60px;
-    }
-
-    .sidenav a {
-      padding: 8px 8px 8px 10px;
-      text-decoration: none;
-      font-size: 25px;
-      color: #818181;
-      display: flex;
-      /* Changed to flex to align icons and text */
-      align-items: center;
-      transition: 0.1s;
-    }
-
-    .sidenav a .nav-text {
-      display: none;
-      /* Initially hidden */
-      margin-left: 10px;
-      /* Space between icon and text */
-    }
-
-    .sidenav.opened a .nav-text {
-      display: inline;
-      /* Show text when sidebar is opened */
-    }
-
-    .menu-icon {
-      font-size: 30px;
-      cursor: pointer;
-      position: fixed;
-      top: 10px;
-      left: 10px;
-      color: rgb(117, 117, 117);
-      z-index: 2;
-      /* Ensures it's above the sidenav */
-    }
-
-    .main {
-      transition: margin-left .5s;
-      padding: 16px;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      /* Align items in a column */
-      justify-content: center;
-      /* Center vertically */
-      align-items: center;
-      /* Center horizontally */
-      min-height: 50vh;
-      /* Full viewport height */
-      font-family: Arial, sans-serif;
-      /* Improve text appearance */
-    }
-
-    .text-top,
-    .text-bottom {
-      font-size: 2em;
-      /* Larger text size */
-      margin: 10px 0;
-      /* Spacing above and below text */
-      font-weight: bold;
-      /* Make the text bold */
-      color: #ffffff;
-      /* White text for visibility */
-    }
-
-    .logo {
-      max-height: 20vh;
-      /* Adjust logo size */
-      margin: 20px 0;
-      /* Spacing above and below logo */
-    }
-
-
-    @media screen and (max-height: 450px) {
-      .sidenav {
-        padding-top: 15px;
-      }
-
-      .sidenav a {
-        font-size: 18px;
-      }
-    }
-  </style>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+   <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+   <div class="container">
+      <h1>Damage Calculator</h1>
+      <div class="flex-container">
+          <div class="weapon section">
+              <h2>Weapon</h2>
+              <label for="weaponCategory">Select a weapon category:</label>
+              <select id="weaponCategory" name="weaponCategory"></select>
+              <label for="weaponStyle">Select a weapon style:</label>
+              <select id="weaponStyle" name="weaponStyle" disabled></select>
+              <button id="calculateButton" onclick="calculateDamage()" disabled>Calculate!</button>
+          </div>
+          <div class="power section">
+              <h2>Power Bonus (default 1830)</h2>
+              <label for="armorPL">Enter your armor power level (divided by 5):</label>
+              <input type="number" id="armorPL" name="armorPL" value="1830">
+              <label for="weaponPL">Enter your weapon power level (divided by 3):</label>
+              <input type="number" id="weaponPL" name="weaponPL" value="1830">
+              <label for="totalPL">Enter your total power level (including artifact):</label>
+              <input type="number" id="totalPL" name="totalPL">
+          </div>
+          <div class="activity section">
+              <h2>Activity Selection</h2>
+              <label for="activityType">Select an activity type:</label>
+              <select id="activityType" name="activityType"></select>
+              <label for="activity">Select an activity:</label>
+              <select id="activity" name="activity" disabled></select>
+              <label for="difficulty">Enter the difficulty of the activity:</label>
+              <select id="difficulty" name="difficulty" disabled></select>
+          </div>
+      </div>
+      <p>Activity: <span id="activityDisplay"></span></p>
 
-  <span class="menu-icon" onclick="toggleNav()">&#9776;</span>
+      <p>Calculated Damage: <span id="resultDisplay"></span></p>
+   </div>
+
+   <span class="menu-icon" onclick="toggleNav()">&#9776;</span>
 
   <div id="mySidenav" class="sidenav">
     <a href="./home.html" class="icon"><i class="bi bi-house"></i><span class="nav-text">Home</span></a>
@@ -128,14 +57,10 @@
   </div>
 
   <div class="main" id="main">
-    <div class="text-top">DESTINY</div>
-    <img class="logo" src="./resources/logo.png" alt="Company Logo">
-    <div class="text-bottom">TOOLBELT</div>
   </div>
-
-
-
-  <script>
+   <script src="calculate.js"></script>
+   <script src="pageFunctions.js"></script>
+   <script>
     function toggleNav() {
       var sidenav = document.getElementById("mySidenav");
       var main = document.getElementById("main");
@@ -152,7 +77,5 @@
       }
     }
   </script>
-
 </body>
-
 </html>

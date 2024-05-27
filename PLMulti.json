@@ -1,0 +1,1092 @@
+{
+  "Rituals and Elective Difficulty": {
+    "Playlist Strikes": {
+      "Recommended Power Level": "1600",
+      "Type": "Playlist Strike",
+      "Recommended PL Multiplier": "40.75x",
+      "Total Multiplier at Delta Cap": "40.7500x",
+      "Damage Source ePL Cap": "1600"
+    },
+    "Dares of Eternity": {
+      "Recommended Power Level": "930",
+      "Type": "Dares",
+      "Recommended PL Multiplier": "24.00x",
+      "Total Multiplier at Delta Cap": "27.4920x",
+      "Damage Source ePL Cap": "950"
+    },
+    "The Wellspring": {
+      "Recommended Power Level": "1760",
+      "Type": "Master LS",
+      "Recommended PL Multiplier": "44.75x",
+      "Total Multiplier at Delta Cap": "43.5720x",
+      "Damage Source ePL Cap": "1780"
+    },
+    "Hero NF/Hunt / Weekly Campaign": {
+      "Recommended Power Level": "1770",
+      "Type": "Hero",
+      "Recommended PL Multiplier": "45.00x",
+      "Total Multiplier at Delta Cap": "33.2677x",
+      "Damage Source ePL Cap": "1765"
+    },
+    "Legend NF / Hunt / Dares / Weekly Campaign": {
+      "Recommended Power Level": "1830",
+      "Type": "Legend",
+      "Recommended PL Multiplier": "46.50x",
+      "Total Multiplier at Delta Cap": "26.4373x",
+      "Damage Source ePL Cap": "1815"
+    },
+    "Legend Lost Sector": {
+      "Recommended Power Level": "1830",
+      "Type": "Master LS",
+      "Recommended PL Multiplier": "46.50x",
+      "Total Multiplier at Delta Cap": "45.2759x",
+      "Damage Source ePL Cap": "1850"
+    },
+    "Master NF / Hunt / Wellspring / Weekly Campaign": {
+      "Recommended Power Level": "1840",
+      "Type": "Master",
+      "Recommended PL Multiplier": "46.75x",
+      "Total Multiplier at Delta Cap": "23.6481x",
+      "Damage Source ePL Cap": "1820"
+    },
+    "Master Lost Sector": {
+      "Recommended Power Level": "1840",
+      "Type": "Master LS",
+      "Recommended PL Multiplier": "46.75x",
+      "Total Multiplier at Delta Cap": "45.5193x",
+      "Damage Source ePL Cap": "1860"
+    },
+    "Master Raid/Dungeon": {
+      "Recommended Power Level": "1840",
+      "Type": "Master RAD",
+      "Recommended PL Multiplier": "46.75x",
+      "Total Multiplier at Delta Cap": "25.2790x",
+      "Damage Source ePL Cap": "1820"
+    },
+    "Grandmaster NF": {
+      "Recommended Power Level": "1840",
+      "Type": "Grandmaster",
+      "Recommended PL Multiplier": "46.75x",
+      "Total Multiplier at Delta Cap": "21.9695x",
+      "Damage Source ePL Cap": "1815"
+    }
+  },
+  "Seasonal Activities": {
+    "Defiant Battleground director": {
+      "Recommended Power Level": "1600",
+      "Type": "Playlist Strike",
+      "Recommended PL Multiplier": "40.75x",
+      "Total Multiplier at Delta Cap": "40.7500x",
+      "Damage Source ePL Cap": "1600"
+    },
+    "Starcrossed": {
+      "Recommended Power Level": "1810",
+      "Type": "Battlegrounds",
+      "Recommended PL Multiplier": "46.00x",
+      "Total Multiplier at Delta Cap": "34.0070x",
+      "Damage Source ePL Cap": "1805"
+    },
+    "Starcrossed Legend": {
+      "Recommended Power Level": "1830",
+      "Type": "Legend",
+      "Recommended PL Multiplier": "46.50x",
+      "Total Multiplier at Delta Cap": "26.4373x",
+      "Damage Source ePL Cap": "1815"
+    },
+    "Savathun's Spire": {
+      "Recommended Power Level": "1760",
+      "Type": "Battlegrounds",
+      "Recommended PL Multiplier": "44.75x",
+      "Total Multiplier at Delta Cap": "33.0829x",
+      "Damage Source ePL Cap": "1755"
+    },
+    "Savathun's Spire Legend": {
+      "Recommended Power Level": "1810",
+      "Type": "Legend",
+      "Recommended PL Multiplier": "46.00x",
+      "Total Multiplier at Delta Cap": "26.1531x",
+      "Damage Source ePL Cap": "1795"
+    },
+    "Altars of Summoning Tier 1": {
+      "Recommended Power Level": "1760",
+      "Type": "Altars",
+      "Recommended PL Multiplier": "44.75x",
+      "Total Multiplier at Delta Cap": "38.0375x",
+      "Damage Source ePL Cap": "1760"
+    },
+    "Altars of Summoning Tier 2": {
+      "Recommended Power Level": "1755",
+      "Type": "Altars",
+      "Recommended PL Multiplier": "44.63x",
+      "Total Multiplier at Delta Cap": "37.9313x",
+      "Damage Source ePL Cap": "1755"
+    },
+    "Altars of Summoning Tier 3": {
+      "Recommended Power Level": "1750",
+      "Type": "Altars",
+      "Recommended PL Multiplier": "44.50x",
+      "Total Multiplier at Delta Cap": "37.8250x",
+      "Damage Source ePL Cap": "1750"
+    },
+    "Legend Defiant Battleground": {
+      "Recommended Power Level": "1800",
+      "Type": "Legend Battleground",
+      "Recommended PL Multiplier": "45.75x",
+      "Total Multiplier at Delta Cap": "38.5688x",
+      "Damage Source ePL Cap": "1785"
+    },
+    "Avalon": {
+      "Recommended Power Level": "1800",
+      "Type": "Seasonal Mission",
+      "Recommended PL Multiplier": "45.75x",
+      "Total Multiplier at Delta Cap": "45.7500x",
+      "Damage Source ePL Cap": "1800"
+    },
+    "Salvage": {
+      "Recommended Power Level": "1750",
+      "Type": "Seasonal Activity",
+      "Recommended PL Multiplier": "44.50x",
+      "Total Multiplier at Delta Cap": "40.4934x",
+      "Damage Source ePL Cap": "1760"
+    },
+    "Salvage Legend": {
+      "Recommended Power Level": "1830",
+      "Type": "Legend",
+      "Recommended PL Multiplier": "46.50x",
+      "Total Multiplier at Delta Cap": "26.4373x",
+      "Damage Source ePL Cap": "1815"
+    },
+    "Deep Dive Level 1": {
+      "Recommended Power Level": "1810",
+      "Type": "Deep Dive 1",
+      "Recommended PL Multiplier": "46.00x",
+      "Total Multiplier at Delta Cap": "36.0078x",
+      "Damage Source ePL Cap": "1807"
+    },
+    "Deep Dive Level 2 (midnight)": {
+      "Recommended Power Level": "1810",
+      "Type": "Deep Dive 2",
+      "Recommended PL Multiplier": "46.00x",
+      "Total Multiplier at Delta Cap": "29.2113x",
+      "Damage Source ePL Cap": "1800"
+    },
+    "Deep Dive Level 3 (abyss)": {
+      "Recommended Power Level": "1810",
+      "Type": "Deep Dive 3",
+      "Recommended PL Multiplier": "46.00x",
+      "Total Multiplier at Delta Cap": "26.1531x",
+      "Damage Source ePL Cap": "1795"
+    },
+    "Legendary Avalon": {
+      "Recommended Power Level": "1830",
+      "Type": "Legendary Campaign",
+      "Recommended PL Multiplier": "46.50x",
+      "Total Multiplier at Delta Cap": "25.2504x",
+      "Damage Source ePL Cap": "1813"
+    }
+  },
+  "Patrol": {
+    "\"EDZ": {
+      "Recommended Power Level": " Nessus",
+      "Type": " DC",
+      "Recommended PL Multiplier": " Moon Patrols\"",
+      "Total Multiplier at Delta Cap": "1600",
+      "Damage Source ePL Cap": "Normal"
+    },
+    "Neomuna Patrol": {
+      "Recommended Power Level": "1650",
+      "Type": "Neomuna Patrol",
+      "Recommended PL Multiplier": "42.00x",
+      "Total Multiplier at Delta Cap": "25.5845x",
+      "Damage Source ePL Cap": "1635"
+    },
+    "Neomuna Public Events": {
+      "Recommended Power Level": "1665",
+      "Type": "Neomuna Patrol",
+      "Recommended PL Multiplier": "42.38x",
+      "Total Multiplier at Delta Cap": "25.8130x",
+      "Damage Source ePL Cap": "1650"
+    },
+    "Neomuna Vex Incursion Zone": {
+      "Recommended Power Level": "1680",
+      "Type": "Neomuna Patrol",
+      "Recommended PL Multiplier": "42.75x",
+      "Total Multiplier at Delta Cap": "26.0414x",
+      "Damage Source ePL Cap": "1665"
+    },
+    "Vex Strike Force ads": {
+      "Recommended Power Level": "1780",
+      "Type": "Neomuna Patrol",
+      "Recommended PL Multiplier": "45.25x",
+      "Total Multiplier at Delta Cap": "27.5643x",
+      "Damage Source ePL Cap": "1765"
+    },
+    "Vex Strike Force boss": {
+      "Recommended Power Level": "1810",
+      "Type": "Neomuna Patrol",
+      "Recommended PL Multiplier": "46.00x",
+      "Total Multiplier at Delta Cap": "28.0211x",
+      "Damage Source ePL Cap": "1795"
+    },
+    "Terminal Override ads": {
+      "Recommended Power Level": "1730",
+      "Type": "Neomuna Patrol",
+      "Recommended PL Multiplier": "44.00x",
+      "Total Multiplier at Delta Cap": "26.8028x",
+      "Damage Source ePL Cap": "1715"
+    },
+    "Terminal Override stage boss": {
+      "Recommended Power Level": "1780",
+      "Type": "Neomuna Patrol",
+      "Recommended PL Multiplier": "45.25x",
+      "Total Multiplier at Delta Cap": "27.5643x",
+      "Damage Source ePL Cap": "1765"
+    },
+    "Terminal Override final boss": {
+      "Recommended Power Level": "1810",
+      "Type": "Neomuna Patrol",
+      "Recommended PL Multiplier": "46.00x",
+      "Total Multiplier at Delta Cap": "28.0211x",
+      "Damage Source ePL Cap": "1795"
+    },
+    "Neomuna LS: Gilded Precept": {
+      "Recommended Power Level": "1770",
+      "Type": "Neomuna Patrol",
+      "Recommended PL Multiplier": "45.00x",
+      "Total Multiplier at Delta Cap": "27.4120x",
+      "Damage Source ePL Cap": "1755"
+    },
+    "Neomuna LS: Thrillladome": {
+      "Recommended Power Level": "1780",
+      "Type": "Neomuna Patrol",
+      "Recommended PL Multiplier": "45.25x",
+      "Total Multiplier at Delta Cap": "27.5643x",
+      "Damage Source ePL Cap": "1765"
+    },
+    "Neomuna LS: Hydroponics": {
+      "Recommended Power Level": "1760",
+      "Type": "Neomuna Patrol",
+      "Recommended PL Multiplier": "44.75x",
+      "Total Multiplier at Delta Cap": "27.2597x",
+      "Damage Source ePL Cap": "1745"
+    },
+    "Partition": {
+      "Recommended Power Level": "1790",
+      "Type": "???",
+      "Recommended PL Multiplier": "45.50x",
+      "Total Multiplier at Delta Cap": "48.2113x",
+      "Damage Source ePL Cap": "1810"
+    },
+    "Neomuna HVTs": {
+      "Recommended Power Level": "1750",
+      "Type": "Neomuna Patrol",
+      "Recommended PL Multiplier": "44.50x",
+      "Total Multiplier at Delta Cap": "27.1074x",
+      "Damage Source ePL Cap": "1735"
+    },
+    "Europa Patrol": {
+      "Recommended Power Level": "1070",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "27.50x",
+      "Total Multiplier at Delta Cap": "38.4130x",
+      "Damage Source ePL Cap": "1120"
+    },
+    "Europa Lost Sectors": {
+      "Recommended Power Level": "1210",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "31.00x",
+      "Total Multiplier at Delta Cap": "43.3019x",
+      "Damage Source ePL Cap": "1260"
+    },
+    "Europa Miniboss outside DSC": {
+      "Recommended Power Level": "1220",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "31.25x",
+      "Total Multiplier at Delta Cap": "43.6511x",
+      "Damage Source ePL Cap": "1270"
+    },
+    "Europa patrol boss - Ferkis": {
+      "Recommended Power Level": "1230",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "31.50x",
+      "Total Multiplier at Delta Cap": "44.0003x",
+      "Damage Source ePL Cap": "1280"
+    },
+    "Europa HVT - Enforcer Brig": {
+      "Recommended Power Level": "1750",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "44.50x",
+      "Total Multiplier at Delta Cap": "62.1592x",
+      "Damage Source ePL Cap": "1800"
+    },
+    "Cosmodrome Patrol and Exodus Garden": {
+      "Recommended Power Level": "1605",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "40.88x",
+      "Total Multiplier at Delta Cap": "57.0957x",
+      "Damage Source ePL Cap": "1655"
+    },
+    "Cosmodrome Forgotten Shore Patrol": {
+      "Recommended Power Level": "1610",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "41.00x",
+      "Total Multiplier at Delta Cap": "57.2703x",
+      "Damage Source ePL Cap": "1660"
+    },
+    "Cosmodrome Lost Sector - Veles Labyrinth": {
+      "Recommended Power Level": "1650",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "42.00x",
+      "Total Multiplier at Delta Cap": "58.6671x",
+      "Damage Source ePL Cap": "1700"
+    },
+    "Cosmodrome HVT - Randal the (Reaver) Vandal": {
+      "Recommended Power Level": "1750",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "44.50x",
+      "Total Multiplier at Delta Cap": "62.1592x",
+      "Damage Source ePL Cap": "1800"
+    },
+    "Throne World Patrol": {
+      "Recommended Power Level": "1400",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "35.75x",
+      "Total Multiplier at Delta Cap": "49.9369x",
+      "Damage Source ePL Cap": "1450"
+    },
+    "Throne World Public Events": {
+      "Recommended Power Level": "1415",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "36.13x",
+      "Total Multiplier at Delta Cap": "50.4607x",
+      "Damage Source ePL Cap": "1465"
+    },
+    "Throne World High Value Targets": {
+      "Recommended Power Level": "1425",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "36.38x",
+      "Total Multiplier at Delta Cap": "50.8099x",
+      "Damage Source ePL Cap": "1475"
+    },
+    "Throne World Knights outside Vow": {
+      "Recommended Power Level": "1520",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "38.75x",
+      "Total Multiplier at Delta Cap": "54.1274x",
+      "Damage Source ePL Cap": "1570"
+    },
+    "Throne World Lost Sector - Extraction": {
+      "Recommended Power Level": "1510",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "38.50x",
+      "Total Multiplier at Delta Cap": "53.7782x",
+      "Damage Source ePL Cap": "1560"
+    },
+    "Throne World Lost Sector - Metamorphosis": {
+      "Recommended Power Level": "1520",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "38.75x",
+      "Total Multiplier at Delta Cap": "54.1274x",
+      "Damage Source ePL Cap": "1570"
+    },
+    "Throne World Lost Sector - Sepulcher": {
+      "Recommended Power Level": "1530",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "39.00x",
+      "Total Multiplier at Delta Cap": "54.4766x",
+      "Damage Source ePL Cap": "1580"
+    }
+  },
+  "Expansion Campaigns and Activities": {
+    "LF Campaign: First Contact": {
+      "Recommended Power Level": "1610",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "41.00x",
+      "Total Multiplier at Delta Cap": "57.2703x",
+      "Damage Source ePL Cap": "1660"
+    },
+    "LF Campaign: Under Siege": {
+      "Recommended Power Level": "1620",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "41.25x",
+      "Total Multiplier at Delta Cap": "57.6195x",
+      "Damage Source ePL Cap": "1670"
+    },
+    "LF Campaign: Downfall": {
+      "Recommended Power Level": "1650",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "42.00x",
+      "Total Multiplier at Delta Cap": "58.6671x",
+      "Damage Source ePL Cap": "1700"
+    },
+    "LF Campaign: Breakneck": {
+      "Recommended Power Level": "1670",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "42.50x",
+      "Total Multiplier at Delta Cap": "59.3655x",
+      "Damage Source ePL Cap": "1720"
+    },
+    "LF Campaign: On the Verge": {
+      "Recommended Power Level": "1690",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "43.00x",
+      "Total Multiplier at Delta Cap": "60.0639x",
+      "Damage Source ePL Cap": "1740"
+    },
+    "LF Campaign: No Time Left": {
+      "Recommended Power Level": "1700",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "43.25x",
+      "Total Multiplier at Delta Cap": "60.4131x",
+      "Damage Source ePL Cap": "1750"
+    },
+    "LF Campaign: Headlong": {
+      "Recommended Power Level": "1740",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "44.25x",
+      "Total Multiplier at Delta Cap": "61.8100x",
+      "Damage Source ePL Cap": "1790"
+    },
+    "LF Campaign: Desperate Measures": {
+      "Recommended Power Level": "1750",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "44.50x",
+      "Total Multiplier at Delta Cap": "62.1592x",
+      "Damage Source ePL Cap": "1800"
+    },
+    "LF Legendary Campaign: First Contact": {
+      "Recommended Power Level": "1610",
+      "Type": "Legendary Campaign",
+      "Recommended PL Multiplier": "41.00x",
+      "Total Multiplier at Delta Cap": "22.2638x",
+      "Damage Source ePL Cap": "1593"
+    },
+    "LF Legendary Campaign: Under Siege": {
+      "Recommended Power Level": "1620",
+      "Type": "Legendary Campaign",
+      "Recommended PL Multiplier": "41.25x",
+      "Total Multiplier at Delta Cap": "22.3995x",
+      "Damage Source ePL Cap": "1603"
+    },
+    "LF Legendary Campaign: Downfall": {
+      "Recommended Power Level": "1650",
+      "Type": "Legendary Campaign",
+      "Recommended PL Multiplier": "42.00x",
+      "Total Multiplier at Delta Cap": "22.8068x",
+      "Damage Source ePL Cap": "1633"
+    },
+    "LF Legendary Campaign: Breakneck": {
+      "Recommended Power Level": "1670",
+      "Type": "Legendary Campaign",
+      "Recommended PL Multiplier": "42.50x",
+      "Total Multiplier at Delta Cap": "23.0783x",
+      "Damage Source ePL Cap": "1653"
+    },
+    "LF Legendary Campaign: On the Verge": {
+      "Recommended Power Level": "1690",
+      "Type": "Legendary Campaign",
+      "Recommended PL Multiplier": "43.00x",
+      "Total Multiplier at Delta Cap": "23.3498x",
+      "Damage Source ePL Cap": "1673"
+    },
+    "LF Legendary Campaign: No Time Left": {
+      "Recommended Power Level": "1700",
+      "Type": "Legendary Campaign",
+      "Recommended PL Multiplier": "43.25x",
+      "Total Multiplier at Delta Cap": "23.4856x",
+      "Damage Source ePL Cap": "1683"
+    },
+    "LF Legendary Campaign: Headlong": {
+      "Recommended Power Level": "1740",
+      "Type": "Legendary Campaign",
+      "Recommended PL Multiplier": "44.25x",
+      "Total Multiplier at Delta Cap": "24.0286x",
+      "Damage Source ePL Cap": "1723"
+    },
+    "LF Legendary Campaign: Desperate Measures": {
+      "Recommended Power Level": "1750",
+      "Type": "Legendary Campaign",
+      "Recommended PL Multiplier": "44.50x",
+      "Total Multiplier at Delta Cap": "24.1644x",
+      "Damage Source ePL Cap": "1733"
+    },
+    "WQ Campaign: The Arrival": {
+      "Recommended Power Level": "1360",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "34.75x",
+      "Total Multiplier at Delta Cap": "48.5400x",
+      "Damage Source ePL Cap": "1410"
+    },
+    "WQ Campaign: The Investigation": {
+      "Recommended Power Level": "1360",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "34.75x",
+      "Total Multiplier at Delta Cap": "48.5400x",
+      "Damage Source ePL Cap": "1410"
+    },
+    "WQ Campaign: The Ghosts": {
+      "Recommended Power Level": "1370",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "35.00x",
+      "Total Multiplier at Delta Cap": "48.8892x",
+      "Damage Source ePL Cap": "1420"
+    },
+    "WQ Campaign:The Communion": {
+      "Recommended Power Level": "1420",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "36.25x",
+      "Total Multiplier at Delta Cap": "50.6353x",
+      "Damage Source ePL Cap": "1470"
+    },
+    "WQ Campaign: The Mirror": {
+      "Recommended Power Level": "1420",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "36.25x",
+      "Total Multiplier at Delta Cap": "50.6353x",
+      "Damage Source ePL Cap": "1470"
+    },
+    "WQ Campaign: The Cunning": {
+      "Recommended Power Level": "1440",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "36.75x",
+      "Total Multiplier at Delta Cap": "51.3337x",
+      "Damage Source ePL Cap": "1490"
+    },
+    "WQ Campaign: The Last Chance": {
+      "Recommended Power Level": "1490",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "38.00x",
+      "Total Multiplier at Delta Cap": "53.0797x",
+      "Damage Source ePL Cap": "1540"
+    },
+    "WQ Campaign: The Ritual": {
+      "Recommended Power Level": "1500",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "38.25x",
+      "Total Multiplier at Delta Cap": "53.4290x",
+      "Damage Source ePL Cap": "1550"
+    },
+    "WQ Campaign: The Ritual - Thread Cutter x3": {
+      "Recommended Power Level": "16035",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "401.6250x",
+      "Total Multiplier at Delta Cap": "561.0041x",
+      "Damage Source ePL Cap": "16085"
+    },
+    "All WQ Legendary Campaigns": {
+      "Recommended Power Level": "1620",
+      "Type": "Legendary Campaign",
+      "Recommended PL Multiplier": "41.25x",
+      "Total Multiplier at Delta Cap": "22.3995x",
+      "Damage Source ePL Cap": "1603"
+    },
+    "Forsaken Story Mission: Broken Courier": {
+      "Recommended Power Level": "520",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "13.75x",
+      "Total Multiplier at Delta Cap": "19.2065x",
+      "Damage Source ePL Cap": "570"
+    },
+    "Forsaken Story Mission: The Oracle Engine": {
+      "Recommended Power Level": "530",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "14.00x",
+      "Total Multiplier at Delta Cap": "19.5557x",
+      "Damage Source ePL Cap": "580"
+    },
+    "Forsaken Story Mission: Dark Monastery": {
+      "Recommended Power Level": "540",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "14.25x",
+      "Total Multiplier at Delta Cap": "19.9049x",
+      "Damage Source ePL Cap": "590"
+    },
+    "Moon Story: A Mysterious Disturbance": {
+      "Recommended Power Level": "760",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "19.75x",
+      "Total Multiplier at Delta Cap": "27.5875x",
+      "Damage Source ePL Cap": "810"
+    },
+    "Moon Story: In The Deep": {
+      "Recommended Power Level": "860",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "22.25x",
+      "Total Multiplier at Delta Cap": "31.0796x",
+      "Damage Source ePL Cap": "910"
+    },
+    "Moon Story: Beyond": {
+      "Recommended Power Level": "860",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "22.25x",
+      "Total Multiplier at Delta Cap": "31.0796x",
+      "Damage Source ePL Cap": "910"
+    },
+    "Blind Well Tier 1": {
+      "Recommended Power Level": "1655",
+      "Type": "Blind Well T1",
+      "Recommended PL Multiplier": "42.13x",
+      "Total Multiplier at Delta Cap": "36.2308x",
+      "Damage Source ePL Cap": "1650"
+    },
+    "Blind Well Tier 2": {
+      "Recommended Power Level": "1660",
+      "Type": "Blind Well T2",
+      "Recommended PL Multiplier": "42.25x",
+      "Total Multiplier at Delta Cap": "30.7755x",
+      "Damage Source ePL Cap": "1650"
+    },
+    "Blind Well Tier 3": {
+      "Recommended Power Level": "1665",
+      "Type": "Blind Well T3",
+      "Recommended PL Multiplier": "42.38x",
+      "Total Multiplier at Delta Cap": "27.5338x",
+      "Damage Source ePL Cap": "1650"
+    },
+    "Blind Well Heroic": {
+      "Recommended Power Level": "1670",
+      "Type": "Blind Well Heroic",
+      "Recommended PL Multiplier": "42.50x",
+      "Total Multiplier at Delta Cap": "24.4636x",
+      "Damage Source ePL Cap": "1650"
+    },
+    "WQ - Preservation": {
+      "Recommended Power Level": "1540",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "39.25x",
+      "Total Multiplier at Delta Cap": "41.5888x",
+      "Damage Source ePL Cap": "1560"
+    },
+    "BL - Stealing Stasis": {
+      "Recommended Power Level": "1200",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "30.75x",
+      "Total Multiplier at Delta Cap": "42.9527x",
+      "Damage Source ePL Cap": "1250"
+    },
+    "BL - Reforging the Past": {
+      "Recommended Power Level": "1230",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "31.50x",
+      "Total Multiplier at Delta Cap": "44.0003x",
+      "Damage Source ePL Cap": "1280"
+    },
+    "BL - Exo Challenge": {
+      "Recommended Power Level": "1230",
+      "Type": "Normal",
+      "Recommended PL Multiplier": "31.50x",
+      "Total Multiplier at Delta Cap": "44.0003x",
+      "Damage Source ePL Cap": "1280"
+    }
+  },
+  "Dungeons": {
+    "Shattered Throne - Opening": {
+      "Recommended Power Level": "570",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "15.00x",
+      "Total Multiplier at Delta Cap": "15.8938x",
+      "Damage Source ePL Cap": "590"
+    },
+    "Shattered Throne - Thrallway": {
+      "Recommended Power Level": "580",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "15.25x",
+      "Total Multiplier at Delta Cap": "16.1587x",
+      "Damage Source ePL Cap": "600"
+    },
+    "Shattered Throne - Vorgeth": {
+      "Recommended Power Level": "590",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "15.50x",
+      "Total Multiplier at Delta Cap": "16.4236x",
+      "Damage Source ePL Cap": "610"
+    },
+    "Shattered Throne - Dul Incaru": {
+      "Recommended Power Level": "590",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "15.50x",
+      "Total Multiplier at Delta Cap": "16.4236x",
+      "Damage Source ePL Cap": "610"
+    },
+    "Pit of Heresy 1st encounter": {
+      "Recommended Power Level": "940",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "24.25x",
+      "Total Multiplier at Delta Cap": "25.6950x",
+      "Damage Source ePL Cap": "960"
+    },
+    "Pit of Heresy - 2nd Encounter": {
+      "Recommended Power Level": "950",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "24.50x",
+      "Total Multiplier at Delta Cap": "25.9599x",
+      "Damage Source ePL Cap": "970"
+    },
+    "Pit of Heresy - Zulmak": {
+      "Recommended Power Level": "960",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "24.75x",
+      "Total Multiplier at Delta Cap": "26.2248x",
+      "Damage Source ePL Cap": "980"
+    },
+    "Prophecy - Phalanx and Cube": {
+      "Recommended Power Level": "1040",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "26.75x",
+      "Total Multiplier at Delta Cap": "28.3440x",
+      "Damage Source ePL Cap": "1060"
+    },
+    "Prophecy - Kell Echo": {
+      "Recommended Power Level": "1060",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "27.25x",
+      "Total Multiplier at Delta Cap": "28.8738x",
+      "Damage Source ePL Cap": "1080"
+    },
+    "GoA - Phry'zia": {
+      "Recommended Power Level": "1310",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "33.50x",
+      "Total Multiplier at Delta Cap": "35.4962x",
+      "Damage Source ePL Cap": "1330"
+    },
+    "GoA - Fallen Shield": {
+      "Recommended Power Level": "1320",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "33.75x",
+      "Total Multiplier at Delta Cap": "35.7611x",
+      "Damage Source ePL Cap": "1340"
+    },
+    "GoA - Avarrokk": {
+      "Recommended Power Level": "1330",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "34.00x",
+      "Total Multiplier at Delta Cap": "36.0260x",
+      "Damage Source ePL Cap": "1350"
+    },
+    "Duality - Gahlran": {
+      "Recommended Power Level": "1550",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "39.50x",
+      "Total Multiplier at Delta Cap": "41.8537x",
+      "Damage Source ePL Cap": "1570"
+    },
+    "Duality - Vault": {
+      "Recommended Power Level": "1560",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "39.75x",
+      "Total Multiplier at Delta Cap": "42.1186x",
+      "Damage Source ePL Cap": "1580"
+    },
+    "Duality - Caiatl": {
+      "Recommended Power Level": "1570",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "40.00x",
+      "Total Multiplier at Delta Cap": "42.3835x",
+      "Damage Source ePL Cap": "1590"
+    },
+    "SotW - Spire Ascent": {
+      "Recommended Power Level": "1570",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "40.00x",
+      "Total Multiplier at Delta Cap": "42.3835x",
+      "Damage Source ePL Cap": "1590"
+    },
+    "SotW - Akelous": {
+      "Recommended Power Level": "1580",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "40.25x",
+      "Total Multiplier at Delta Cap": "42.6484x",
+      "Damage Source ePL Cap": "1600"
+    },
+    "SotW - Persys": {
+      "Recommended Power Level": "1580",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "40.25x",
+      "Total Multiplier at Delta Cap": "42.6484x",
+      "Damage Source ePL Cap": "1600"
+    },
+    "GotD - Ritual": {
+      "Recommended Power Level": "1790",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "45.50x",
+      "Total Multiplier at Delta Cap": "48.2113x",
+      "Damage Source ePL Cap": "1810"
+    },
+    "GotD - Ecthar": {
+      "Recommended Power Level": "1800",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "45.75x",
+      "Total Multiplier at Delta Cap": "48.4762x",
+      "Damage Source ePL Cap": "1820"
+    },
+    "GotD - Simmumah": {
+      "Recommended Power Level": "1810",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "46.00x",
+      "Total Multiplier at Delta Cap": "48.7411x",
+      "Damage Source ePL Cap": "1830"
+    },
+    "Warlord's Ruin - Rathil": {
+      "Recommended Power Level": "1790",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "45.50x",
+      "Total Multiplier at Delta Cap": "48.2113x",
+      "Damage Source ePL Cap": "1810"
+    },
+    "Warlord's Ruin - Ogre": {
+      "Recommended Power Level": "1800",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "45.75x",
+      "Total Multiplier at Delta Cap": "48.4762x",
+      "Damage Source ePL Cap": "1820"
+    },
+    "Warlord's Ruin - Hefnd": {
+      "Recommended Power Level": "1810",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "46.00x",
+      "Total Multiplier at Delta Cap": "48.7411x",
+      "Damage Source ePL Cap": "1830"
+    }
+  },
+  "Raids": {
+    "Last Wish - Kalli": {
+      "Recommended Power Level": "560",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "14.75x",
+      "Total Multiplier at Delta Cap": "15.6289x",
+      "Damage Source ePL Cap": "580"
+    },
+    "Last Wish - Shuro Chi": {
+      "Recommended Power Level": "565",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "14.88x",
+      "Total Multiplier at Delta Cap": "15.7614x",
+      "Damage Source ePL Cap": "585"
+    },
+    "Last Wish - Morgeth": {
+      "Recommended Power Level": "570",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "15.00x",
+      "Total Multiplier at Delta Cap": "15.8938x",
+      "Damage Source ePL Cap": "590"
+    },
+    "Last Wish - Vault": {
+      "Recommended Power Level": "575",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "15.13x",
+      "Total Multiplier at Delta Cap": "16.0263x",
+      "Damage Source ePL Cap": "595"
+    },
+    "Last Wish - Riven": {
+      "Recommended Power Level": "580",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "15.25x",
+      "Total Multiplier at Delta Cap": "16.1587x",
+      "Damage Source ePL Cap": "600"
+    },
+    "GoS - 1st encounter": {
+      "Recommended Power Level": "910",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "23.50x",
+      "Total Multiplier at Delta Cap": "24.9003x",
+      "Damage Source ePL Cap": "930"
+    },
+    "GoS - 2nd encounter": {
+      "Recommended Power Level": "920",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "23.75x",
+      "Total Multiplier at Delta Cap": "25.1652x",
+      "Damage Source ePL Cap": "940"
+    },
+    "GoS - Consecrated Mind": {
+      "Recommended Power Level": "930",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "24.00x",
+      "Total Multiplier at Delta Cap": "25.4301x",
+      "Damage Source ePL Cap": "950"
+    },
+    "GoS - Sanctified Mind": {
+      "Recommended Power Level": "940",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "24.25x",
+      "Total Multiplier at Delta Cap": "25.6950x",
+      "Damage Source ePL Cap": "960"
+    },
+    "DSC - Security": {
+      "Recommended Power Level": "1220",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "31.25x",
+      "Total Multiplier at Delta Cap": "33.1121x",
+      "Damage Source ePL Cap": "1240"
+    },
+    "DSC - Atraks": {
+      "Recommended Power Level": "1230",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "31.50x",
+      "Total Multiplier at Delta Cap": "33.3770x",
+      "Damage Source ePL Cap": "1250"
+    },
+    "DSC - Descent": {
+      "Recommended Power Level": "1240",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "31.75x",
+      "Total Multiplier at Delta Cap": "33.6419x",
+      "Damage Source ePL Cap": "1260"
+    },
+    "DSC - Taniks": {
+      "Recommended Power Level": "1250",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "32.00x",
+      "Total Multiplier at Delta Cap": "33.9068x",
+      "Damage Source ePL Cap": "1270"
+    },
+    "VoG - 1st Encounter": {
+      "Recommended Power Level": "1300",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "33.25x",
+      "Total Multiplier at Delta Cap": "35.2313x",
+      "Damage Source ePL Cap": "1320"
+    },
+    "VoG - Templar": {
+      "Recommended Power Level": "1310",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "33.50x",
+      "Total Multiplier at Delta Cap": "35.4962x",
+      "Damage Source ePL Cap": "1330"
+    },
+    "VoG - Atheon": {
+      "Recommended Power Level": "1320",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "33.75x",
+      "Total Multiplier at Delta Cap": "35.7611x",
+      "Damage Source ePL Cap": "1340"
+    },
+    "VotD - Entrance and Acquisition": {
+      "Recommended Power Level": "1520",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "38.75x",
+      "Total Multiplier at Delta Cap": "41.0591x",
+      "Damage Source ePL Cap": "1540"
+    },
+    "VotD - Caretaker": {
+      "Recommended Power Level": "1530",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "39.00x",
+      "Total Multiplier at Delta Cap": "41.3239x",
+      "Damage Source ePL Cap": "1550"
+    },
+    "VotD - Exhibition": {
+      "Recommended Power Level": "1540",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "39.25x",
+      "Total Multiplier at Delta Cap": "41.5888x",
+      "Damage Source ePL Cap": "1560"
+    },
+    "VotD - Rhulk": {
+      "Recommended Power Level": "1550",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "39.50x",
+      "Total Multiplier at Delta Cap": "41.8537x",
+      "Damage Source ePL Cap": "1570"
+    },
+    "Kings Fall - Opening / Totems": {
+      "Recommended Power Level": "1560",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "39.75x",
+      "Total Multiplier at Delta Cap": "42.1186x",
+      "Damage Source ePL Cap": "1580"
+    },
+    "Kings Fall - Warpriest": {
+      "Recommended Power Level": "1565",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "39.88x",
+      "Total Multiplier at Delta Cap": "42.2511x",
+      "Damage Source ePL Cap": "1585"
+    },
+    "Kings Fall - Golgoroth": {
+      "Recommended Power Level": "1570",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "40.00x",
+      "Total Multiplier at Delta Cap": "42.3835x",
+      "Damage Source ePL Cap": "1590"
+    },
+    "Kings Fall - Daughters": {
+      "Recommended Power Level": "1575",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "40.13x",
+      "Total Multiplier at Delta Cap": "42.5160x",
+      "Damage Source ePL Cap": "1595"
+    },
+    "Kings Fall - Oryx": {
+      "Recommended Power Level": "1580",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "40.25x",
+      "Total Multiplier at Delta Cap": "42.6484x",
+      "Damage Source ePL Cap": "1600"
+    },
+    "RoN - Cataclysm": {
+      "Recommended Power Level": "1770",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "45.00x",
+      "Total Multiplier at Delta Cap": "47.6815x",
+      "Damage Source ePL Cap": "1790"
+    },
+    "RoN - Scission": {
+      "Recommended Power Level": "1780",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "45.25x",
+      "Total Multiplier at Delta Cap": "47.9464x",
+      "Damage Source ePL Cap": "1800"
+    },
+    "RoN - Macrocosm": {
+      "Recommended Power Level": "1790",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "45.50x",
+      "Total Multiplier at Delta Cap": "48.2113x",
+      "Damage Source ePL Cap": "1810"
+    },
+    "RoN - Nezarec": {
+      "Recommended Power Level": "1800",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "45.75x",
+      "Total Multiplier at Delta Cap": "48.4762x",
+      "Damage Source ePL Cap": "1820"
+    },
+    "Crota's End - Opening": {
+      "Recommended Power Level": "1790",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "45.50x",
+      "Total Multiplier at Delta Cap": "48.2113x",
+      "Damage Source ePL Cap": "1810"
+    },
+    "Crota's End - Abyss": {
+      "Recommended Power Level": "1795",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "45.63x",
+      "Total Multiplier at Delta Cap": "48.3437x",
+      "Damage Source ePL Cap": "1815"
+    },
+    "Crota's End - Bridge": {
+      "Recommended Power Level": "1800",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "45.75x",
+      "Total Multiplier at Delta Cap": "48.4762x",
+      "Damage Source ePL Cap": "1820"
+    },
+    "Crota's End - Deathsinger": {
+      "Recommended Power Level": "1805",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "45.88x",
+      "Total Multiplier at Delta Cap": "48.6086x",
+      "Damage Source ePL Cap": "1825"
+    },
+    "Crota's End - Crota": {
+      "Recommended Power Level": "1810",
+      "Type": "RAD",
+      "Recommended PL Multiplier": "46.00x",
+      "Total Multiplier at Delta Cap": "48.7411x",
+      "Damage Source ePL Cap": "1830"
+    }
+  }
+}
