@@ -104,10 +104,9 @@ $(document).ready(function () {
         const selectedActivity = $("#activity").val();
         const activityTypeVal = $("#activityType").val();
         const activityDetails = activityTypeVal ? data[activityTypeVal][selectedActivity] : null;
-        const difficultySelectVal = $('#difficulty').val(); // Get the current selected value of difficulty
 
         if (selectedActivity && activityDetails) {
-            document.getElementById('activityDisplay').textContent = `${selectedActivity}, ${difficultySelectVal} Difficulty, Recommended Power Level: ${activityDetails['Recommended Power Level']}`;
+            document.getElementById('activityDisplay').textContent = `${selectedActivity}, Recommended Power Level: ${activityDetails['Recommended Power Level']}`;
         } else {
             document.getElementById('activityDisplay').textContent = 'Please select an activity and difficulty to display details.';
         }

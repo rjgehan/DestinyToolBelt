@@ -10,15 +10,12 @@ function calculateDamage() {
 
       activitytype = document.getElementById('activityType').value;
       activity = document.getElementById('activity').value;
-      difficulty = document.getElementById('difficulty').value;  // this is either RAD, normal, or master
+      difficulty = "rad"
       if (activitytype == '') {
         activitytype = 'Dungeons'
       }
       if (activity == '') {
         activity = 'GoA - Phry\'zia'
-      }
-      if (difficulty == '') {
-        difficulty = 'normal'
       }
 
       const weaponPL = parseFloat(document.getElementById('weaponPL').value);
@@ -59,9 +56,19 @@ function calculateDamage() {
         const pveBodyBonus = parseFloat(selectedGun['PvE damage bonus body'].replace('x', '')) || 1;
         const pveHeadBonus = parseFloat(selectedGun['PvE damage bonus head'].replace('x', '')) || 1;
 
-        const bodyDamage = body * pveBodyBonus * eplDeltaMulti * recomendedPLMulti * bossMulti;
+        const bodyDamage = body * (pveBodyBonus * eplDeltaMulti * recomendedPLMulti * bossMulti);
         const headDamage = head * pveHeadBonus * eplDeltaMulti * recomendedPLMulti * bossMulti;
         const total = bodyDamage + headDamage;
+
+        console.log('recomendedPLMulti:', recomendedPLMulti);
+        console.log('bossMulti:', bossMulti);
+        console.log('gearMultiplier:', gearMultiplier);
+        console.log('weaponMultiplier:', weaponMultiplier);
+        console.log('pveBodyBonus:', pveBodyBonus);
+        console.log('pveHeadBonus:', pveHeadBonus);
+        console.log('bodyDamage:', bodyDamage);
+        console.log('headDamage:', headDamage);
+        console.log('total:', total);
 
         if (selectedGun['family'] === 'Rocket Launcher' || selectedGun['family'] === 'Heavy Grenade Launcher' || selectedGun['family'] === 'Special Grenade Launcher') {
           document.getElementById('resultDisplay').textContent = `Explosion Damage: ${bodyDamage.toFixed(0)} - Impact Damage: ${headDamage.toFixed(0)} - Total Damage: ${total.toFixed(0)}`;
@@ -136,18 +143,10 @@ function getGearMultiplier(delta, difficulty) {
 
 function getWeaponMultiplier(delta) {
   const number = Math.exp(delta * 0.00672);
-  if (difficulty == "normal" || difficulty == "rad") {
-    if (number > 1.397) {
-      return 1.397
-    } else {
-      return number
-    }
+  if (number > 1.146) {
+    return 1.146
   } else {
-    if (number > 1.146) {
-      return 1.146
-    } else {
-      return number
-    }
+    return number
   }
 }
 
