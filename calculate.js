@@ -8,25 +8,27 @@ function calculateDamage() {
       const style = document.getElementById('weaponStyle').value;
       const selectedGun = gunData[category].find(gun => gun.frame === style);
 
-      activitytype = document.getElementById('activityType').value;
-      activity = document.getElementById('activity').value;
+      // activitytype = document.getElementById('activityType').value;
+      // activity = document.getElementById('activity').value;
       difficulty = "rad"
-      if (activitytype == '') {
-        activitytype = 'Dungeons'
-      }
-      if (activity == '') {
-        activity = 'GoA - Phry\'zia'
-      }
+      // if (activitytype == '') {
+      //   activitytype = 'Dungeons'
+      // }
+      // if (activity == '') {
+      //   activity = 'GoA - Phry\'zia'
+      // }
 
-      const weaponPL = parseFloat(document.getElementById('weaponPL').value);
-      const armorPL = parseFloat(document.getElementById('armorPL').value);
-      const totalPL = parseFloat(document.getElementById('totalPL').value);
+      // const weaponPL = parseFloat(document.getElementById('weaponPL').value);
+      // const armorPL = parseFloat(document.getElementById('armorPL').value);
+      // const totalPL = parseFloat(document.getElementById('totalPL').value);
+      const weaponPL = 1930;
+      const armorPL = 1930;
+      const totalPL = 1930;
 
       let PLMultiValue = 1.0;
 
-      const selectedActivity = PLMulti[activitytype][activity];
-      const recommendedPL = parseFloat(selectedActivity["Recommended Power Level"]);
-      const recomendedPLMulti = parseFloat(selectedActivity["Recommended PL Multiplier"].replace('x', ''));
+      const recommendedPL = 1950;
+      const recomendedPLMulti = 49.5;
 
 
       // Calculate Gear ePL Delta
@@ -56,8 +58,8 @@ function calculateDamage() {
         const pveBodyBonus = parseFloat(selectedGun['PvE damage bonus body'].replace('x', '')) || 1;
         const pveHeadBonus = parseFloat(selectedGun['PvE damage bonus head'].replace('x', '')) || 1;
 
-        const bodyDamage = body * (pveBodyBonus * eplDeltaMulti * recomendedPLMulti * bossMulti);
-        const headDamage = head * pveHeadBonus * eplDeltaMulti * recomendedPLMulti * bossMulti;
+        const bodyDamage = body * (pveBodyBonus * eplDeltaMulti * recomendedPLMulti * bossMulti) * 1.364;
+        const headDamage = head * (pveHeadBonus * eplDeltaMulti * recomendedPLMulti * bossMulti);
         const total = bodyDamage + headDamage;
 
         console.log('recomendedPLMulti:', recomendedPLMulti);
@@ -155,7 +157,7 @@ function getMultiplier(archetype) {
     { archetype: "Auto Rifle", multiplier: "1.15x" },
     { archetype: "Cerberus +1", multiplier: "0.86x" },
     { archetype: "Scout Rifle", multiplier: "1.30x" },
-    { archetype: "Pulse Rifle", multiplier: "1.00x" },
+    { archetype: "Pulse Rifle", multiplier: "1.208x" },
     { archetype: "Revision Zero", multiplier: "1.00x" },
     { archetype: "Hand Cannon", multiplier: "1.30x" },
     { archetype: "Submachine Gun", multiplier: "1.53x" },
@@ -168,7 +170,7 @@ function getMultiplier(archetype) {
     { archetype: "Special Grenade Launcher", multiplier: "2.50x" },
     { archetype: "Fusion Rifle", multiplier: "2.55x" },
     { archetype: "Bastion", multiplier: "1.40x" },
-    { archetype: "Sniper Rifle", multiplier: "1.52x" },
+    { archetype: "Sniper Rifle", multiplier: "1.6243x" },
     { archetype: "Trace Rifle", multiplier: "1.80x" },
     { archetype: "Exotic Trace Rifle", multiplier: "1.80x" },
     { archetype: "Glaive", multiplier: "3.00x" },

@@ -2,7 +2,7 @@
   "Master Raid/Dungeon": {
     
     "Master Raid/Dungeon": {
-      "Recommended Power Level": "1840",
+      "Recommended Power Level": "1950",
       "Type": "Master RAD",
       "Recommended PL Multiplier": "46.75x",
       "Total Multiplier at Delta Cap": "25.2790x",
@@ -10,169 +10,113 @@
     }
   },
   "Dungeons": {
-    "Shattered Throne - Opening": {
-      "Recommended Power Level": "570",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "15.00x",
-      "Total Multiplier at Delta Cap": "15.8938x",
-      "Damage Source ePL Cap": "590"
-    },
-    "Shattered Throne - Thrallway": {
-      "Recommended Power Level": "580",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "15.25x",
-      "Total Multiplier at Delta Cap": "16.1587x",
-      "Damage Source ePL Cap": "600"
-    },
     "Shattered Throne - Vorgeth": {
-      "Recommended Power Level": "590",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "15.50x",
       "Total Multiplier at Delta Cap": "16.4236x",
       "Damage Source ePL Cap": "610"
     },
     "Shattered Throne - Dul Incaru": {
-      "Recommended Power Level": "590",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "15.50x",
       "Total Multiplier at Delta Cap": "16.4236x",
       "Damage Source ePL Cap": "610"
     },
-    "Pit of Heresy 1st encounter": {
-      "Recommended Power Level": "940",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "24.25x",
-      "Total Multiplier at Delta Cap": "25.6950x",
-      "Damage Source ePL Cap": "960"
-    },
-    "Pit of Heresy - 2nd Encounter": {
-      "Recommended Power Level": "950",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "24.50x",
-      "Total Multiplier at Delta Cap": "25.9599x",
-      "Damage Source ePL Cap": "970"
-    },
     "Pit of Heresy - Zulmak": {
-      "Recommended Power Level": "960",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "24.75x",
       "Total Multiplier at Delta Cap": "26.2248x",
       "Damage Source ePL Cap": "980"
     },
-    "Prophecy - Phalanx and Cube": {
-      "Recommended Power Level": "1040",
+    "Prophecy - Phalanx": {
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "26.75x",
       "Total Multiplier at Delta Cap": "28.3440x",
       "Damage Source ePL Cap": "1060"
     },
     "Prophecy - Kell Echo": {
-      "Recommended Power Level": "1060",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "27.25x",
       "Total Multiplier at Delta Cap": "28.8738x",
       "Damage Source ePL Cap": "1080"
     },
     "GoA - Phry'zia": {
-      "Recommended Power Level": "1310",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "33.50x",
       "Total Multiplier at Delta Cap": "35.4962x",
       "Damage Source ePL Cap": "1330"
     },
-    "GoA - Fallen Shield": {
-      "Recommended Power Level": "1320",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "33.75x",
-      "Total Multiplier at Delta Cap": "35.7611x",
-      "Damage Source ePL Cap": "1340"
-    },
     "GoA - Avarrokk": {
-      "Recommended Power Level": "1330",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "34.00x",
       "Total Multiplier at Delta Cap": "36.0260x",
       "Damage Source ePL Cap": "1350"
     },
     "Duality - Gahlran": {
-      "Recommended Power Level": "1550",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "39.50x",
       "Total Multiplier at Delta Cap": "41.8537x",
       "Damage Source ePL Cap": "1570"
     },
-    "Duality - Vault": {
-      "Recommended Power Level": "1560",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "39.75x",
-      "Total Multiplier at Delta Cap": "42.1186x",
-      "Damage Source ePL Cap": "1580"
-    },
     "Duality - Caiatl": {
-      "Recommended Power Level": "1570",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "40.00x",
-      "Total Multiplier at Delta Cap": "42.3835x",
-      "Damage Source ePL Cap": "1590"
-    },
-    "SotW - Spire Ascent": {
-      "Recommended Power Level": "1570",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "40.00x",
       "Total Multiplier at Delta Cap": "42.3835x",
       "Damage Source ePL Cap": "1590"
     },
     "SotW - Akelous": {
-      "Recommended Power Level": "1580",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "40.25x",
       "Total Multiplier at Delta Cap": "42.6484x",
       "Damage Source ePL Cap": "1600"
     },
     "SotW - Persys": {
-      "Recommended Power Level": "1580",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "40.25x",
       "Total Multiplier at Delta Cap": "42.6484x",
       "Damage Source ePL Cap": "1600"
     },
-    "GotD - Ritual": {
-      "Recommended Power Level": "1790",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "45.50x",
-      "Total Multiplier at Delta Cap": "48.2113x",
-      "Damage Source ePL Cap": "1810"
-    },
     "GotD - Ecthar": {
-      "Recommended Power Level": "1800",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "45.75x",
       "Total Multiplier at Delta Cap": "48.4762x",
       "Damage Source ePL Cap": "1820"
     },
     "GotD - Simmumah": {
-      "Recommended Power Level": "1810",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "46.00x",
       "Total Multiplier at Delta Cap": "48.7411x",
       "Damage Source ePL Cap": "1830"
     },
     "Warlord's Ruin - Rathil": {
-      "Recommended Power Level": "1790",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "45.50x",
       "Total Multiplier at Delta Cap": "48.2113x",
       "Damage Source ePL Cap": "1810"
     },
     "Warlord's Ruin - Ogre": {
-      "Recommended Power Level": "1800",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "45.75x",
       "Total Multiplier at Delta Cap": "48.4762x",
       "Damage Source ePL Cap": "1820"
     },
     "Warlord's Ruin - Hefnd": {
-      "Recommended Power Level": "1810",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "46.00x",
       "Total Multiplier at Delta Cap": "48.7411x",
@@ -181,242 +125,151 @@
   },
   "Raids": {
     "Last Wish - Kalli": {
-      "Recommended Power Level": "560",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "14.75x",
       "Total Multiplier at Delta Cap": "15.6289x",
       "Damage Source ePL Cap": "580"
     },
     "Last Wish - Shuro Chi": {
-      "Recommended Power Level": "565",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "14.88x",
       "Total Multiplier at Delta Cap": "15.7614x",
       "Damage Source ePL Cap": "585"
     },
     "Last Wish - Morgeth": {
-      "Recommended Power Level": "570",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "15.00x",
       "Total Multiplier at Delta Cap": "15.8938x",
       "Damage Source ePL Cap": "590"
     },
-    "Last Wish - Vault": {
-      "Recommended Power Level": "575",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "15.13x",
-      "Total Multiplier at Delta Cap": "16.0263x",
-      "Damage Source ePL Cap": "595"
-    },
     "Last Wish - Riven": {
-      "Recommended Power Level": "580",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "15.25x",
       "Total Multiplier at Delta Cap": "16.1587x",
       "Damage Source ePL Cap": "600"
     },
-    "GoS - 1st encounter": {
-      "Recommended Power Level": "910",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "23.50x",
-      "Total Multiplier at Delta Cap": "24.9003x",
-      "Damage Source ePL Cap": "930"
-    },
-    "GoS - 2nd encounter": {
-      "Recommended Power Level": "920",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "23.75x",
-      "Total Multiplier at Delta Cap": "25.1652x",
-      "Damage Source ePL Cap": "940"
-    },
     "GoS - Consecrated Mind": {
-      "Recommended Power Level": "930",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "24.00x",
       "Total Multiplier at Delta Cap": "25.4301x",
       "Damage Source ePL Cap": "950"
     },
     "GoS - Sanctified Mind": {
-      "Recommended Power Level": "940",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "24.25x",
       "Total Multiplier at Delta Cap": "25.6950x",
       "Damage Source ePL Cap": "960"
     },
     "DSC - Security": {
-      "Recommended Power Level": "1220",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "31.25x",
       "Total Multiplier at Delta Cap": "33.1121x",
       "Damage Source ePL Cap": "1240"
     },
     "DSC - Atraks": {
-      "Recommended Power Level": "1230",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "31.50x",
       "Total Multiplier at Delta Cap": "33.3770x",
       "Damage Source ePL Cap": "1250"
     },
-    "DSC - Descent": {
-      "Recommended Power Level": "1240",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "31.75x",
-      "Total Multiplier at Delta Cap": "33.6419x",
-      "Damage Source ePL Cap": "1260"
-    },
     "DSC - Taniks": {
-      "Recommended Power Level": "1250",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "32.00x",
       "Total Multiplier at Delta Cap": "33.9068x",
       "Damage Source ePL Cap": "1270"
     },
-    "VoG - 1st Encounter": {
-      "Recommended Power Level": "1300",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "33.25x",
-      "Total Multiplier at Delta Cap": "35.2313x",
-      "Damage Source ePL Cap": "1320"
-    },
     "VoG - Templar": {
-      "Recommended Power Level": "1310",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "33.50x",
       "Total Multiplier at Delta Cap": "35.4962x",
       "Damage Source ePL Cap": "1330"
     },
     "VoG - Atheon": {
-      "Recommended Power Level": "1320",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "33.75x",
       "Total Multiplier at Delta Cap": "35.7611x",
       "Damage Source ePL Cap": "1340"
     },
-    "VotD - Entrance and Acquisition": {
-      "Recommended Power Level": "1520",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "38.75x",
-      "Total Multiplier at Delta Cap": "41.0591x",
-      "Damage Source ePL Cap": "1540"
-    },
     "VotD - Caretaker": {
-      "Recommended Power Level": "1530",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "39.00x",
       "Total Multiplier at Delta Cap": "41.3239x",
       "Damage Source ePL Cap": "1550"
     },
-    "VotD - Exhibition": {
-      "Recommended Power Level": "1540",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "39.25x",
-      "Total Multiplier at Delta Cap": "41.5888x",
-      "Damage Source ePL Cap": "1560"
-    },
     "VotD - Rhulk": {
-      "Recommended Power Level": "1550",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "39.50x",
       "Total Multiplier at Delta Cap": "41.8537x",
       "Damage Source ePL Cap": "1570"
     },
-    "Kings Fall - Opening / Totems": {
-      "Recommended Power Level": "1560",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "39.75x",
-      "Total Multiplier at Delta Cap": "42.1186x",
-      "Damage Source ePL Cap": "1580"
-    },
     "Kings Fall - Warpriest": {
-      "Recommended Power Level": "1565",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "39.88x",
       "Total Multiplier at Delta Cap": "42.2511x",
       "Damage Source ePL Cap": "1585"
     },
     "Kings Fall - Golgoroth": {
-      "Recommended Power Level": "1570",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "40.00x",
       "Total Multiplier at Delta Cap": "42.3835x",
       "Damage Source ePL Cap": "1590"
     },
     "Kings Fall - Daughters": {
-      "Recommended Power Level": "1575",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "40.13x",
       "Total Multiplier at Delta Cap": "42.5160x",
       "Damage Source ePL Cap": "1595"
     },
     "Kings Fall - Oryx": {
-      "Recommended Power Level": "1580",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "40.25x",
       "Total Multiplier at Delta Cap": "42.6484x",
       "Damage Source ePL Cap": "1600"
     },
-    "RoN - Cataclysm": {
-      "Recommended Power Level": "1770",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "45.00x",
-      "Total Multiplier at Delta Cap": "47.6815x",
-      "Damage Source ePL Cap": "1790"
-    },
-    "RoN - Scission": {
-      "Recommended Power Level": "1780",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "45.25x",
-      "Total Multiplier at Delta Cap": "47.9464x",
-      "Damage Source ePL Cap": "1800"
-    },
     "RoN - Macrocosm": {
-      "Recommended Power Level": "1790",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "45.50x",
       "Total Multiplier at Delta Cap": "48.2113x",
       "Damage Source ePL Cap": "1810"
     },
     "RoN - Nezarec": {
-      "Recommended Power Level": "1800",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "45.75x",
-      "Total Multiplier at Delta Cap": "48.4762x",
-      "Damage Source ePL Cap": "1820"
-    },
-    "Crota's End - Opening": {
-      "Recommended Power Level": "1790",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "45.50x",
-      "Total Multiplier at Delta Cap": "48.2113x",
-      "Damage Source ePL Cap": "1810"
-    },
-    "Crota's End - Abyss": {
-      "Recommended Power Level": "1795",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "45.63x",
-      "Total Multiplier at Delta Cap": "48.3437x",
-      "Damage Source ePL Cap": "1815"
-    },
-    "Crota's End - Bridge": {
-      "Recommended Power Level": "1800",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "45.75x",
       "Total Multiplier at Delta Cap": "48.4762x",
       "Damage Source ePL Cap": "1820"
     },
     "Crota's End - Deathsinger": {
-      "Recommended Power Level": "1805",
+      "Recommended Power Level": "1950",
       "Type": "RAD",
       "Recommended PL Multiplier": "45.88x",
       "Total Multiplier at Delta Cap": "48.6086x",
       "Damage Source ePL Cap": "1825"
     },
     "Crota's End - Crota": {
-      "Recommended Power Level": "1810",
-      "Type": "RAD",
-      "Recommended PL Multiplier": "46.00x",
-      "Total Multiplier at Delta Cap": "48.7411x",
-      "Damage Source ePL Cap": "1830"
+      "Recommended Power Level": "1950",
+      "Type": "RAD"
+    },"Salvation's Edge - ": {
+      "Recommended Power Level": "1950",
+      "Type": "RAD"
     }
   }
 }

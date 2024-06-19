@@ -38,7 +38,7 @@ $(document).ready(function () {
     fetch('PLMulti.json')
         .then(response => response.json())
         .then(data => {
-            document.getElementById('activityDisplay').textContent = "default - GoA - Phryz\'ia";
+            // document.getElementById('activityDisplay').textContent = "default - GoA - Phryz\'ia";
             $("#armorPL").val(1830);
             $("#weaponPL").val(1830);
             $("#totalPL").val(1830);
